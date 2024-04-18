@@ -1,0 +1,10 @@
+.coloring {
+  height: 300px;
+  width: 100%;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

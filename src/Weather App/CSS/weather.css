@@ -1,0 +1,65 @@
+body {
+  background-image: url("../Image/cloud.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grid-weather {
+  padding: 20px;
+  width: 400px;
+  height: 600px;
+  margin-left: 550px;
+  margin-top: 60px;
+  background-color: rgb(44, 44, 229);
+  position: relative;
+  border-radius: 10%;
+}
+
+.grid-weather p {
+  color: rgb(13, 255, 0);
+  font-size: 30px;
+}
+
+#result{
+  margin-top: 40px;
+  margin-left: 65px;
+}
+
+.weather-input input[type="text"] {
+  position: absolute;
+  bottom: 90px;
+  left: 95px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.weather-input input[type="text"]::placeholder {
+  color: rgb(17, 0, 255);
+  font-size: 18;
+  font-weight: 600;
+  font-style: oblique;
+}
+
+.weather-input label {
+  position: absolute;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(13, 255, 0);
+  font-weight: bold;
+  font-style: oblique;
+  bottom: 130px;
+  left: 90px;
+}
+
+.grid-weather button {
+  position: absolute;
+  bottom: 30px;
+  left: 95px;
+  width: 200px;
+}
+
+#img{
+  height: 100px;
+  margin-left: 120px;
+  margin-top: 50px;
+}
